@@ -16,6 +16,7 @@ class Watermarker : public QMainWindow
 
 public:
     Watermarker(QWidget *parent = nullptr);
+	// 水印构造函数
     Watermarker(QString text, 
 		QFont font,
 		int angle, 
@@ -42,6 +43,7 @@ public:
 
 	}
 
+	// 需要重载的绘制函数（关键处理点）
 	void paintEvent(QPaintEvent* event) override 
 	{
 		QPainter painter(this);
