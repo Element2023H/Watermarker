@@ -1,5 +1,7 @@
 # WaterMark
 
+中文 | [EN](./README_en.md)
+
 开发环境： vs2017 + Qt 5.14.2
 
 基于项目：Sample-Watermark 实现的QT版本
